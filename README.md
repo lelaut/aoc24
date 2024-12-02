@@ -7,5 +7,5 @@ This is my attempt at solving [Advent of Code 2024](https://adventofcode.com/202
 To run a particular day, just(e.g. day 1):
 
 ```bash
-$ python3 d1.py
+python3 d1.py
 ```
