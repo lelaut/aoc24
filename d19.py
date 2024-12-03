@@ -3,7 +3,6 @@
 # https://adventofcode.com/2024/day/19
 
 from d0 import Challenge
-from typing import TypeAlias
 
 class ___(Challenge):
   def solution_p1(self, filename: str) -> int:
@@ -12,4 +11,4 @@ class ___(Challenge):
   def solution_p2(self, filename: str) -> int:
     pass
 
-___(19, None).run()
+___(day=19, p1_sample=None).run()

@@ -3,7 +3,6 @@
 # https://adventofcode.com/2024/day/2
 
 from d0 import Challenge
-from typing import TypeAlias
 
 class RedNosedReports(Challenge):
   def check(self, levels: list[int]) -> bool:
@@ -53,4 +52,4 @@ class RedNosedReports(Challenge):
 
     return safe
 
-RedNosedReports(2, 2, 4).run()
+RedNosedReports(day=2, p1_sample=2, p2_sample=4).run()

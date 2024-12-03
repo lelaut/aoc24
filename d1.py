@@ -32,4 +32,4 @@ class HistorianHysteria(Challenge):
     
     return sum([l * right[l] if l in right else 0 for l in left])
 
-HistorianHysteria(1, 11, 31).run()
+HistorianHysteria(day=1, p1_sample=11, p2_sample=31).run()
